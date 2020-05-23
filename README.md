@@ -13,3 +13,7 @@
 # Problems:
 ## Game of Life
 From (leetcode)[https://leetcode.com/problems/game-of-life/]
+
+## Dining Philosophers
+Demonstartes parallel programming and avoiding deadlock using semaphores.
+from (wikipedia/dining_philosophers_problem)[https://en.wikipedia.org/wiki/Dining_philosophers_problem]
