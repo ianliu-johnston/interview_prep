@@ -66,3 +66,8 @@ def game_of_life(board: List[List[bool]]) -> List[List[bool]]:
                 evolve[row_index][col_index] = state
     log.debug(evolve)
     return evolve
+
+if __name__ == "__main__":
+    board = game_of_life(board)
+    for i in range(100):
+        board = game_of_life(board)
